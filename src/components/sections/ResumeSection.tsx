@@ -1,4 +1,4 @@
-import { Flex, Image, Text, HStack, VStack } from "@chakra-ui/react";
+import { Flex, Image, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 
 const ResumeSection: React.FC = () => {

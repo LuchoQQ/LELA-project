@@ -1,7 +1,5 @@
 import {
-    Box,
     Flex,
-    Grid,
     HStack,
     Icon,
     Image,

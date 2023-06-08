@@ -5,7 +5,6 @@ type Props = {
     children: React.ReactNode; //👈 children prop typr
   };
 const Container: React.FC<Props> = ({children}) => {
-    const screenY = window.screen.height;
 
     return (
         <>

@@ -1,13 +1,10 @@
-import { Flex, HStack, Icon, Image, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import IndexSection from "./components/sections/IndexSection";
 import CustomersSection from "./components/sections/CustomersSection";
 import Container from "./components/Container";
 import FrecuentQuestions from "./components/sections/FrecuentQuestions";
 import ResumeSection from "./components/sections/ResumeSection";
-import { BsLinkedin } from "react-icons/bs";
-import { AiOutlineGlobal, AiOutlineMail } from "react-icons/ai";
 function App() {
-    const width = window.screen.width;
     return (
         <>
             <Flex flexDir="column" bg="#fff" alignItems="center">

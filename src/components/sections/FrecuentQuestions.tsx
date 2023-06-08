@@ -1,6 +1,5 @@
 import React from "react";
 import ServiceCard from "../ServiceCard";
-import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { Flex } from "@chakra-ui/react";
 
 const FrecuentQuestions: React.FC = () => {

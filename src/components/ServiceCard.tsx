@@ -1,6 +1,5 @@
-import { Flex, HStack, Icon, Image, Text, VStack } from "@chakra-ui/react";
+import { Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import React from "react";
-import { IconType } from 'react-icons'
 type Props = {
     direction: string,
     path: string,
