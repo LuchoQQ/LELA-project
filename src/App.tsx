@@ -1,9 +1,11 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, HStack, Icon, Image, Text } from "@chakra-ui/react";
 import IndexSection from "./components/sections/IndexSection";
 import CustomersSection from "./components/sections/CustomersSection";
 import Container from "./components/Container";
 import FrecuentQuestions from "./components/sections/FrecuentQuestions";
 import ResumeSection from "./components/sections/ResumeSection";
+import { BsLinkedin } from 'react-icons/bs'
+import { AiOutlineGlobal, AiOutlineMail } from 'react-icons/ai'
 function App() {
     return (
         <>
@@ -28,13 +30,13 @@ function App() {
                 <Container>
                     <ResumeSection />
                 </Container>
-                <Flex>
-                    {/* <Image src="/perfil.png" w="250px" />
-                        <HStack mr="auto" fontSize="4xl" spacing={10}>
+                <Flex py='1rem'>
+                    <Image src="/assets/perfil.png" w={["100px", "200px","250px"]} />
+                        <HStack mr="auto" fontSize={["2xl", "3xl","4xl"]} spacing={10}>
                             <Icon as={BsLinkedin} fill="#2B0ADD" cursor='pointer' />
                             <Icon as={AiOutlineGlobal} fill="#2B0ADD" cursor='pointer' />
                             <Icon as={AiOutlineMail} fill="#2B0ADD" cursor='pointer' />
-                        </HStack> */}
+                        </HStack>
                 </Flex>
             </Flex>
         </>

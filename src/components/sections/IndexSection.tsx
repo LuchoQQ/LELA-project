@@ -97,7 +97,7 @@ const IndexSection: React.FC = () => {
                         </Flex>
                     </HStack>
                 </VStack>
-                <Image src="public/vieja.png" alignSelf="center" w="350px" />
+                <Image src="/assets/vieja.png" alignSelf="center" w="350px" />
             </Flex>
         </>
     );

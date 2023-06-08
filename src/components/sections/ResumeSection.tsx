@@ -38,7 +38,7 @@ const ResumeSection: React.FC = () => {
                             en la crianza de sus hijos.
                         </Text>
                     </VStack>
-                    <Image src="/public/mobile2.png" w="400px" />
+                    <Image src="/assets/mobile2.png" w="400px" />
                 </Flex>
             </Flex>
         </>

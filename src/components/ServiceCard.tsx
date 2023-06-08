@@ -13,7 +13,7 @@ const ServiceCard: React.FC<Props> = ({ direction, path, title, description, las
             <HStack spacing={[0, 0, 0, 10, 10]} ml='auto' mr='auto' >
                 {direction === "left" && last !== true && (
                     <Image
-                        src="/public/arrow.png"
+                        src="/assets/arrow.png"
                         w="60px"
                         transform="rotate(180deg)"
                         position='relative'
@@ -54,7 +54,7 @@ const ServiceCard: React.FC<Props> = ({ direction, path, title, description, las
                 </VStack>
                 {direction === "right" && last !== true && (
                     <Image
-                        src="/public/arrow2.png"
+                        src="/assets/arrow2.png"
                         w="60px"
                         transform="rotate(180deg)"
                         position='relative'

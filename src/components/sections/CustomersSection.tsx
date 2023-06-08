@@ -25,7 +25,7 @@ const CustomersSection: React.FC = () => {
                 >
                     <Card
                         title="Padres y Madres"
-                        image="/public/card1.svg"
+                        image="/assets/card1.svg"
                         text="Son los usuarios principales de
 LELA. Estos individuos ocupados desean contar con una
 fuente confiable de consejos,
@@ -34,7 +34,7 @@ momento y lugar"
                     />
                     <Card
                         title="Padres y Madres primerizos:"
-                        image="/public/card2.svg"
+                        image="/assets/card2.svg"
                         text="Son los usuarios principales de
 LELA. Estos individuos ocupados desean contar con una
 fuente confiable de consejos,
@@ -43,7 +43,7 @@ momento y lugar"
                     />
                     <Card
                         title="Profesionales de la Salud"
-                        image="/public/card3.svg"
+                        image="/assets/card3.svg"
                         text="Si bien LELA no pretende reemplazar a los profesionales de la salud, puede complementar sus servicios al proporcionar información básica y respuestas
 a preguntas frecuentes"
                     />
