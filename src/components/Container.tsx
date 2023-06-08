@@ -13,7 +13,7 @@ const Container: React.FC<Props> = ({children}) => {
                 position="relative"
                 justifyContent="center"
                 gap="18rem"
-                maxW="1600px"
+                bg='#fff'
             >
                 {children}
             </Flex>

@@ -1,26 +1,27 @@
-import {Flex, Text } from "@chakra-ui/react";
-import Card from '../Card'
+import { Flex, Text } from "@chakra-ui/react";
+import Card from "../Card";
 import React from "react";
 
 const CustomersSection: React.FC = () => {
     return (
         <>
-            <Flex flexDir="column" w='100%' h='100%' pb='5rem'>
-                 <Text
+            <Flex flexDir="column" w="100%" h="100%" py="5rem">
+                <Text
                     fontSize="4xl"
                     color="primary"
                     fontWeight="bold"
                     textAlign="center"
+                    mb='3rem'
                 >
                     Dirigido a
                 </Text>
-                
+
                 <Flex
                     justifyContent="center"
                     fontFamily="primary"
                     alignItems="center"
                     gap="5rem"
-                    h="600px"
+                    wrap='wrap'
                 >
                     <Card
                         title="Padres y Madres"
@@ -46,7 +47,7 @@ momento y lugar"
                         text="Si bien LELA no pretende reemplazar a los profesionales de la salud, puede complementar sus servicios al proporcionar información básica y respuestas
 a preguntas frecuentes"
                     />
-                </Flex> 
+                </Flex>
             </Flex>
         </>
     );

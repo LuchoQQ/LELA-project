@@ -3,22 +3,22 @@ import React from "react";
 import { IconType } from 'react-icons'
 type Props = {
     direction: string,
-    icon: IconType
+    path: string,
     title: string,
     description: string,
     last?: boolean
 }
-const ServiceCard: React.FC<Props> = ({ direction, icon, title, description, last }) => {
+const ServiceCard: React.FC<Props> = ({ direction, path, title, description, last }) => {
     return (
         <>
-            <HStack spacing={100} ml='auto' mr='auto' >
+            <HStack spacing={[0, 0, 0, 10, 10]} ml='auto' mr='auto' >
                 {direction === "left" && last !== true && (
                     <Image
                         src="/public/arrow.png"
-                        w="100px"
+                        w="60px"
                         transform="rotate(180deg)"
                         position='relative'
-                        top='100px'
+                        top='40px'
 
                     />
                 )}
@@ -29,10 +29,10 @@ const ServiceCard: React.FC<Props> = ({ direction, icon, title, description, las
                     fontFamily="primary"
                     rounded="10px"
                     border="1px dotted red"
-                    w="700px"
+                    w={['300px', '350px', '350px', '700px']}
                 >
                     <Flex gap="1rem" justifyContent="start" w="100%">
-                        <Icon as={icon} fontSize="4xl" />
+                        <Image src={path} fontSize="4xl" />
                         <Text
                             fontFamily="primary"
                             fontWeight="bold"
@@ -44,8 +44,8 @@ const ServiceCard: React.FC<Props> = ({ direction, icon, title, description, las
                         </Text>
                     </Flex>
                     <Text
-                        fontFamily="primary"
-                        fontWeight="regular"
+                        fontFamily="tertiary"
+                        fontWeight='bold'
                         fontSize="sm"
                         px="1rem"
                         textAlign="justify"
@@ -55,11 +55,12 @@ const ServiceCard: React.FC<Props> = ({ direction, icon, title, description, las
                 </VStack>
                 {direction === "right" && last !== true && (
                     <Image
-                        position='relative'
-                        top='100px'
                         src="/public/arrow2.png"
-                        w="100px"
+                        w="60px"
                         transform="rotate(180deg)"
+                        position='relative'
+                        top='40px'
+
                     />
                 )}
             </HStack>
