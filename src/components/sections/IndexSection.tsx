@@ -16,14 +16,13 @@ const IndexSection: React.FC = () => {
                 flexDir={["column", "column", "column", "row", "row"]}
                 gap="5rem"
                 justifyItems="center"
-                py='2rem'
+                py='3rem'
             >
-                <VStack my="auto" spacing={10}>
+                <VStack my="auto" spacing={5} px='5rem'>
                     <Flex
                         w="100%"
                         fontFamily="secondary"
                         color="primary"
-                        mr="auto"
                         justifyContent={["center", "center", "unset", "unset"]}
                     >
                         <Text fontSize="8xl">Lela</Text>
@@ -57,10 +56,9 @@ const IndexSection: React.FC = () => {
                         fontWeight="bold"
                         mr="auto"
                         maxW="500px"
-                        px="1rem"
                         textAlign={["center", "center", 'unset', 'unset']}
                     >
-                        LELA es un chatbot de IA que proporciona apoyo a los
+                        LELA es un chatbot de inteligencia artificial que proporciona apoyo a los
                         padres a través de WhatsApp. LELA ofrece consejos
                         prácticos y está disponible en todo momento para ayudar
                         a los padres en su viaje de crianza.

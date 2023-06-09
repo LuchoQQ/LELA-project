@@ -30,7 +30,7 @@ function App() {
                 <Container>
                     <ResumeSection />
                 </Container>
-                <Flex py='1rem'>
+                <Flex py='1rem' borderTop='1px solid #2B0ADD'>
                     <Image src="/assets/perfil.png" w={["100px", "200px","250px"]} />
                         <HStack mr="auto" fontSize={["2xl", "3xl","4xl"]} spacing={10}>
                             <Icon as={BsLinkedin} fill="#2B0ADD" cursor='pointer' />

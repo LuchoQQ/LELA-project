@@ -13,7 +13,8 @@ const FrecuentQuestions: React.FC = () => {
                 flexDir="column"
                 alignContent={["center"]}
                 gap="4rem"
-                py="5rem"
+                pb="5rem"
+                pt='2rem'
                 bg="#fff"
             >
                 <ServiceCard
